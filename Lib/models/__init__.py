@@ -1,1 +1,1 @@
-from .models import User, Transaction, BankATM
+from .models import User, Transaction, BankATM, TransactionCategory

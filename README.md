@@ -1,4 +1,4 @@
-# Basic ATM Banking CLI Application
+# Basic ATM Banking CLI Application(Dhabiti_ATM_Banking)
 
 ## Description
 
@@ -11,7 +11,7 @@ This application simulates a basic ATM system using a Command Line Interface (CL
 ├── Pipfile.lock
 └── lib
 ├── models
-│ ├── __init__.py
+│ ├── __init__py
 │ └── models.py
 ├── main.py
 └── README.md
