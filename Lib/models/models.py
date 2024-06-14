@@ -35,9 +35,9 @@ class User:
         CURSOR.execute('''
             CREATE TABLE IF NOT EXISTS users (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
-                username TEXT UNIQUE NOT NULL,
-                pin INTEGER NOT NULL,
-                balance REAL NOT NULL
+                username TEXT,
+                pin INTEGER,
+                balance REAL
             )
         ''')
         CONN.commit()  # Save the changes
